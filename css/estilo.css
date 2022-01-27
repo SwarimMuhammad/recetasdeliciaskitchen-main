@@ -1,0 +1,217 @@
+body{
+    background: rgb(255, 255, 255);
+    margin-top: 0%;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.logo{
+    display:flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+#menu{
+    background: #FFF;  
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    width:100%;   
+}
+#menu ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    width: 100%;
+}
+
+#menu ul li {
+    display: inline-block;    
+}
+
+#menu a {
+    font-family: Arial;
+    font-size: 14px;
+    color: black;
+    text-decoration:none;
+    display:block;
+    padding: 12px 26px;
+    text-transform: uppercase;  
+}
+
+#menu a:hover{
+    color: black;
+    background: lightgray
+}
+
+.inicio p.fecha{
+    text-align: center;
+}
+
+.promocion p, .inicio p{ 
+    text-align: justify;
+}
+
+.grid-container{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    background-color: white;
+    border: 1px;
+    text-align: center;
+    gap: 1rem;
+    width: 100%;
+    margin: 0 auto;
+   
+}
+
+.promocion{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    grid-row: 1 / 3;
+    border: 2px;
+    width: 300px;
+    height: 720px;
+}
+
+
+.pasta{
+    padding: 20px;
+    border: 2px;
+    width: 420px;
+    height: 380px;
+}
+
+
+
+.mijo{
+    padding: 20px;
+    border: 2px;
+    width: 420px;
+    
+}
+
+.mijo article img{
+    width: 400px;
+}
+
+.calabacines{
+    padding: 20px;
+    border: 2px;
+    text-align: center;
+    width: 420px;
+    height: 400px;
+}
+.galletitas{
+    padding: 20px;
+    border: 2px;
+    width: 420px;
+    height: 450px;
+}
+
+
+.newsletter{
+    background-color: lightgray;
+    padding: 5px;
+}
+
+.promocion button{
+    width:100%;
+    background-color: #7ABA96;
+    border-color: rgb(235, 234, 234);
+    border-radius: 5px;
+}
+
+.linea {
+    border-top: 1px solid lightgreen;
+    height: 1px;
+    max-width: auto;
+    padding: 0;
+    margin: 0px;
+}
+
+
+.galletitas img{
+    display: block;
+    width: 400px;
+    height:fit-content;
+}
+    
+h3{
+    color: black;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    font-family: Arial;
+    font-size: medium;
+    text-align: justify;
+}
+
+.fecha {
+    text-align: center;
+    margin: 0%;
+}
+
+.suscribir {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px;
+    font-family: Arial;
+    font-size: medium;
+}
+
+.suscribir:hover{
+    color: black;
+    background: lightyellow;
+    cursor:pointer;  
+}
+
+.suscribir:focus{
+    background-color: lightgreen;
+}
+
+footer{
+    height: 60px;
+    background-color: rgb(14, 13, 13);
+    text-align: center;
+}
+
+footer ul{
+    list-style: none;
+        display: inline-block;
+        padding: 5px;
+}
+
+footer ul li{
+    float: left;
+
+}
+
+footer ul li a {
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 18px;
+}
+
+.social a:hover{
+    background-color: black;
+  }
+
+.imgRedonda {
+    width:250px;
+
+}

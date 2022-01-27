@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilocontacto.css" />
+    <title>Formulario</title>
+</head>
+<body>
+    <a href="./../index.html"><img src="https://cdn-icons-png.flaticon.com/512/4998/4998821.png" width="30" alt="cerrar"></a>
+    <h1>
+        Registro
+    </h1>
+    <img class="logo" src="../imagenes/Logo-Delicias.png" align="right" width="15%" alt="">
+    <form action="" method="get">
+        <ul>
+            <li>
+                <label for="name">Nombre y apellidos</label>
+                <input type="text" id="name" name="user_name" placeholder="Swarim Muhammad" required>
+            </li>
+            <li>
+                <label for="username">Usuario</label>
+                <input type="text" id="username" name="username" minlength="4" maxlength="16" placeholder="swarim347" required>
+            </li>
+            <li>
+                <label for="birth_date">Fecha de nacimiento</label>
+                <input type="date" id="date" name="birth_date" required>
+            </li>
+            <li>
+                <label for="mail">Correo electrónico</label>
+                <input type="email" id="mail" name="user_mail"  placeholder="muhammad.swarim.7e5@itb.cat" required>
+            </li>
+            <li>
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="user_password" minlength="6" placeholder="Contraseña" required>
+            </li>
+            <li>
+                <label for="msg" >Receta a comentar o añadir</label>
+                <select name="videojuego">
+                    <option selected value="0"></option>
+                        <option value="5">Añadir nueva receta</option> 
+                        <option value="1">Pasta con salsa de coliflor</option> 
+                        <option value="2">Galletas de avena</option> 
+                        <option value="3">Mijo cremoso con lentejas</option> 
+                        <option value="4">Calabacines de arroz negro</option> 
+                    </optgroup> 
+                </select>
+            </li>
+            <li>
+                <label for="msg">Comentario / Receta</label>
+                <textarea id="msg" name="user_message" placeholder="Escribe tu comentario o receta aquí..."></textarea>
+            </li>
+            <li class="terminos"> 
+                <input type="checkbox" name="terminos" required>	
+                <label for="name">Aceptar los <b>Términos y Condiciones</b></label>
+            </li>
+            <li>
+                <button type="submit">Registrarte y comentar</button>
+            </li>
+        </ul>
+    </form>
+    <footer>
+		<ul>
+			<li class="social">
+				<a href="https://www.facebook.com/" target="_blank">Facebook</a>
+			</li>
+			<li class="social">
+				<a href="https://twitter.com/" target="_blank">Twitter</a>
+			</li>
+			<li class="social">
+				<a href="https://www.instagram.com/" target="_blank">Instagram</a>
+			</li>
+			<li class="social">
+				<a href="https://www.pinterest.com/" target="_blank">Pinterest</a>	
+			</li>
+			<li class="social">
+				<a href="mailto:muhammad.swarim.7e5@itb.cat?subject=El%20asunto%20va%20aquí&body=El%20mensaje%20va%20aquí">Email</a>			
+			</li>
+			<li class="social">
+				<a href="https://www.rssboard.org/" target="_blank">RSS</a>
+			</li>
+		</ul>
+	</footer>	
+</body>
+</html>
+

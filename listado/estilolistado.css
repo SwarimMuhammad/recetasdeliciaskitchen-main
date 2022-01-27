@@ -1,0 +1,87 @@
+
+
+div.a{
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border: 1px ;
+    border-radius: 10px;
+    background-color: lightgray;
+    color: lightgray;
+}
+
+
+.linea {
+    border-top: 1px solid black;
+    height: 1px;
+    max-width: auto;
+    padding: 5px;
+}
+  
+.centrado{
+      text-align: center;
+}
+
+h1{
+    font-family: Arial;
+    font-weight: bolder;
+    color: darkgreen;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-family: Arial;
+    font-size: x-large;
+    font-weight: bold;
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+
+body p{
+    text-align: justify;
+    color: black;
+    font-family: Arial;
+    font-size: large;
+}
+
+div.paginacion{
+    margin: auto;
+    border: 0px ;
+    border-radius: 30px;
+    background-color: lightgray;
+    color: lightgray;
+}
+
+
+ul.pagination {
+    border-radius: 15px;
+    background-color: lightgrey;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-left: 35%;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    font-size: small;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: lightgreen;}
+</style>
+</head>
+<body>
